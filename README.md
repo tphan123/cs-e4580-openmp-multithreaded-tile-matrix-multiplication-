@@ -2,7 +2,9 @@ cs-e4580 no-openmp-cpu-baseline-multithreaded-tile-matrix-multiplication
 
 changelog
 
-[v0.5.0] switched to openmp-enabled .zip from the course. added the nested loop parallezation from the course #pragma omp parallel, #pragma omp for collapse(2) schedule(static). 
+[v0.5.0] switched to openmp-enabled .zip from the course. 
+
+imt8.cc: added the nested loop parallezation from the course #pragma omp parallel, #pragma omp for collapse(2) schedule(static). 
 the collapse(2) is defined in the course cs-e4580 as to both parallize the row tile iteration i and column tile iteration j at once.
 schedule(static) is defined in the course cs-e4580 as to run one single iteration on one thread at one time. 
 ```
