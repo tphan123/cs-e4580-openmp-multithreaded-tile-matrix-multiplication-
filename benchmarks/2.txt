@@ -1,0 +1,2 @@
+timeout 23.5
+uniform 8000 8000 8000
